@@ -1,4 +1,4 @@
-package br.com.fiap.study_apir.controller;
+package br.com.fiap.study_apir.controller;//sempre criar a package controller dentro da pasta nessa seria "study_apir"
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
