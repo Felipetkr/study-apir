@@ -1,13 +1,13 @@
-package br.com.fiap.study_apir;
+package br.com.fiap.study_apir.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 //sempre instalar Extension Pack for Java
 @RestController
-@RequestMapping("/ping")
+@RequestMapping("/ping")//todas as rotas dentro dessa classe começam com "/ping"
 public class PingController {
-    @GetMapping("/rota")
+    @GetMapping("/rota")//requisição GET para "/rota", execute este método
     public String ping(){
         return "pong";
     }
